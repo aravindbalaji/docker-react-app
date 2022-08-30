@@ -8,5 +8,3 @@ RUN npm run build
 FROM nginx
 EXPOSE 80
 COPY --from=teamab7 /var/app/build /var/share/nginx/html
-
-
